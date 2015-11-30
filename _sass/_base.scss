@@ -235,5 +235,20 @@ pre {
  */
 
 .warning {
-    color: red;
+    padding:10px;
+    color: #9F6000;
+    margin:10px 0;
+    background-color: #FEEFB3;
+    border-radius:.5em;
+    border: 1px solid;
+}
+.warning:before {
+    font-weight: bold;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    content:'Warning!';
 }
