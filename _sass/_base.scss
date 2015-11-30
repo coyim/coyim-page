@@ -244,11 +244,6 @@ pre {
 }
 .warning:before {
     font-weight: bold;
-    margin-right:.2em;
-    text-align:center;
-    font-variant:normal;
-    text-transform:none;
-    line-height:1em;
-    margin-left:.2em;
+    margin:.2em 0;
     content:'Warning!';
 }
