@@ -1,14 +1,15 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: CoyIM
+email: twstrike-public@thoughtworks,com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    CoyIM is a new client for the XMPP protocol. It is built upon xmpp-client. It adds a graphical user interface and tries to be safe and secure by default. Our ambition is that it should be possible for even the most high-risk people on the planet to safely use CoyIM, without having to make any configuration changes.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://coy.im" # the base hostname & protocol for your site
+twitter_username: coyim
+github_username:  twstrike
+
+mac_release: 21030e3
+linux_release:  21030e3
 
 # Build settings
 markdown: kramdown
