@@ -8,8 +8,7 @@ url: "https://coy.im" # the base hostname & protocol for your site
 twitter_username: coyproject
 github_username:  twstrike
 
-mac_release: cb4e2fb
-linux_release: cb4e2fb
+version: 0.1
 
 # Build settings
 markdown: kramdown
