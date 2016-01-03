@@ -27,10 +27,17 @@
     }
 }
 
+.site-box {
+    float:left;
+    left: $box-indent;
+    position: fixed;
+    padding:10px;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
-
+    
     .menu-icon {
         display: none;
     }

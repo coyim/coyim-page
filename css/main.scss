@@ -27,6 +27,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$box-width: 100px;
+$box-indent: 50px;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {

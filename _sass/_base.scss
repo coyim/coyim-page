@@ -75,8 +75,8 @@ li {
 }
 
 .download {
-    display: inline-block;
     margin-right: $spacing-unit;
+    font-size: 0.8em;
 }
 
 /**
@@ -163,6 +163,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -241,9 +242,4 @@ pre {
     background-color: #FEEFB3;
     border-radius:.5em;
     border: 1px solid;
-}
-.warning:before {
-    font-weight: bold;
-    margin:.2em 0;
-    content:'Warning!';
 }
