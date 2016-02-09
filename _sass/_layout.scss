@@ -34,6 +34,9 @@
     padding:10px;
     z-index: 1;
     max-width: 160px;
+    @include media-query($on-palm) {
+        display: none;
+    }
 }
 
 .site-nav {
@@ -178,6 +181,9 @@
 
     @include media-query($on-small) {
         margin-left: 160px;
+    }
+    @include media-query($on-palm) {
+        margin-left: 0;
     }
 }
 
