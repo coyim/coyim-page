@@ -29,9 +29,11 @@
 
 .site-box {
     float:left;
-    left: $box-indent;
+    top: $spacing-unit + 56px;
     position: fixed;
     padding:10px;
+    z-index: 1;
+    max-width: 160px;
 }
 
 .site-nav {
@@ -166,14 +168,17 @@
     }
 }
 
-
-
 /**
  * Page content
  */
 .page-content {
+    position: relative;
     padding: $spacing-unit 0;
     padding-top: $spacing-unit * 3;
+
+    @include media-query($on-small) {
+        margin-left: 160px;
+    }
 }
 
 .page-heading {
