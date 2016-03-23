@@ -10,6 +10,7 @@ categories: coyim update
 We are very proud to release CoyIM 0.3 with a lot of interesting new features and important bug fixes!
 
 New features:
+
 - Improved configuration options
 - Alternative single view layout
 - Allow associating (local) nicknames and groups with peers
@@ -26,15 +27,17 @@ New features:
 - Choose what private key to import when importing from a file with several keys
 
 Bug fixes:
-- #276 - Don't strip out HTML from text
+
+- \#276 - Don't strip out HTML from text
 - Fix broken tests on Go 1.6
-- #261 - Allow for trying to send messages while connecting, without crashing
+- \#261 - Allow for trying to send messages while connecting, without crashing
 - Invoking the program twice will now open up the original window
-- #257 - When disconnecting on purpose, we shouldn't try to reconnect
-- #223 - Don't pop up more than one password dialog
-- #232 - We shouldn't crash on Windows
+- \#257 - When disconnecting on purpose, we shouldn't try to reconnect
+- \#223 - Don't pop up more than one password dialog
+- \#232 - We shouldn't crash on Windows
 
 Other changes:
+
 - Allow for more TLS cipher suites when connecting
 - Better feedback on failure in various siutations
 - Improve the add contact dialog, and add more functionality
