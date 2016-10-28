@@ -41,7 +41,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    margin-top: -81px;
+    margin-top: -48px;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -250,42 +250,32 @@ pre {
 }
 
 .text-center {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
   line-height: 140px;
   height: 260px;
   font-weight: 600;
   padding: 0 40px;
-  margin-top: -30px;
 }
 
 .inside-text {
+  color: #828282;
   text-align: center;
-  margin-top: 280px;
+  margin-top: 1%;
 }
 
-h1 {
+.home-title {
   color: #111;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 130px;
+  font-size: 90px;
   letter-spacing: 1px;
   display: inline;
   float: left;
   margin: 0;
+  width: 100%;
+  letter-spacing: -5px;
 }
 
-h3 {
-  color: #111;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 100px;
-  letter-spacing: 1px;
-  display: inline;
-  float: left;
-  margin: 0;
-  padding-top: 7px;
-  font-weight: 300;
+.hexa {
+  margin-top: 7%;
 }
 
 .menu {
