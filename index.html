@@ -2,28 +2,29 @@
 layout: default
 ---
 
-<div class="home">
-    <h1><span class="tlt">A safe and secure chat client</span></h1>
+<body>
+ <div class='container'>       
 
-    <div class="warning">CoyIM is currently under active development. There have been no security audits of the code, and you should currently not use this for anything sensitive.</div>
+ <div id="main">
+  <div class='text-center'>
+	  <h1>C</h1><h3>OY</h3><h1>IM</h1>
+	  <div class="fish">
+	    <img src='http://s13.postimg.org/uvugdz9qb/Screen_Shot_2016_10_27_at_3_23_21_PM.png' border='0' alt='postimage'/>
+	  </div>
+  <br><br>
+  </div>
+  <div class='inside-text'>
+    <p> CoyIM is a new chat client for the Jabber/XMPP protocol that is safe and secure by default - no settings to change, no plugins to install, no computer configuration to change.</p>
 
-    <p>CoyIM is a new chat client for the Jabber/XMPP protocol. On the surface, CoyIM looks a lot like other chat clients such as Pidgin, Adium and Gajim. However, under the hood, things are a bit different. The most important guiding principle for CoyIM is to create a program that is safe and secure by default - no settings to change, no plugins to install, no computer configuration to change. We want CoyIM to make it easy to be safe whatever your threat model is - even for the most high risk people on the planet.</p>
+  </div>
 
-    <p>CoyIM is still a very young project - we started in October 2015, basing the project on Adam Langley's <a href="https://github.com/agl/xmpp-client">xmpp-client</a> for Golang. Thus, there are many features missing you might expect to be there. We aim to add most of these, although some features we will never add since they go against our goals of a small and safe client.</p>
-
-    <p>For more information about how CoyIM is different, read the <a href="/about">about page</a>.</p>
-
-    <p>If you have comments or thoughts or questions, don't hesitate to send it to us - either through the contact information at the bottom of this page, or through the different methods listed on the <a href="/feedback">feedback page</a>.</p>
-
-    <h1 class="page-heading">Recent Posts</h1>
-    <ul class="post-list">
-        {% for post in site.posts limit:3 %}
-        <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-        </li>
-        {% endfor %}
-    </ul>
 </div>
+
+<table class="hexa">
+ <tr>
+	 <td><div class="hexagon"><span class="hexa-content">Why CoyIM?</span></div><span style="margin-right: 80px;"></span></td>
+	 <td><div class="hexagon-download"><span class="hexa-content"><strong>Download!</strong></span></div><span style="margin-right: 80px;"></span></td>
+			 <td><div class="hexagon"><span class="hexa-content" style="padding-top: 10%;">How to contribute?</span></div><span style="margin-right: 5px;"></span></td>
+ </tr>
+</table>
+

@@ -177,7 +177,7 @@
 .page-content {
     position: relative;
     padding: $spacing-unit 0;
-    padding-top: $spacing-unit * 3;
+    padding-top: 70px;
 
     @include media-query($on-small) {
         margin-left: 160px;
