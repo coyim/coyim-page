@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Feedback
-permalink: /feedback/
+title: Contact Us
+permalink: /contact-us/
 ---
 We would appreciate feedback from you, in order to guide our work better. If you have any thoughts or comments, please get in touch with us.
 
