@@ -213,12 +213,13 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         vertical-align: middle;
+	margin: 0 9px;
 
         path {
-            fill: $grey-color;
+            fill: #fafafa;
         }
     }
 }
@@ -264,6 +265,10 @@ pre {
   text-align: center;
 }
 
+.version {
+  font-size: 12px;
+}
+
 .home-title {
   color: #111;
   font-size: 90px;
@@ -277,11 +282,11 @@ pre {
 
 .hexa {
   margin-top: 5%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .hexa a {
-  color: $hexagon-brand-color;
+  color: #fafafa;
 }
 
 .menu {
@@ -309,6 +314,7 @@ display: inline-block;
   width: 0;
   border-left: 125px solid transparent;
   border-right: 125px solid transparent;
+  font-size: 27px; 
 }
 
 .hexagon-download:before {
@@ -320,6 +326,11 @@ display: inline-block;
   top: 100%;
   width: 0;
   border-top: 72.17px solid #f26359;
+}
+
+.hexagon-download .hexa-content {
+  padding: 0;
+  padding-top: 25px;
 }
 
 .hexagon {
