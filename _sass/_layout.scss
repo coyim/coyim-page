@@ -50,9 +50,12 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+	text-transform: uppercase;
+	-webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
+	transition: color 1s ease-out;
         
 	&:hover {
-          color: #424242;
+          color: #f26359;
 	}
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
