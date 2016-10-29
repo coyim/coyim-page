@@ -102,8 +102,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        // text-decoration: underline;
+      color: $brand-color;
     }
 }
 
@@ -204,7 +203,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+          fill: $grey-color;
         }
     }
 }
@@ -245,7 +244,13 @@ pre {
 
 	path {
 	  fill: #828282;
-	}
+	  -webkit-transition: fill 1s ease-out; /* For Safari 3.1 to 6.0 */
+	  transition: fill 1s ease-out;
+	  
+	  &:hover {
+	    fill: #f26359;
+          }
+        }  
     }
 }
 
