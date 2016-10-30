@@ -1,9 +1,0 @@
-    <div class="warning">CoyIM is currently under active development. There have been no security audits of the code, and you should currently not use this for anything sensitive.</div>
-
-    <p>CoyIM is a new chat client for the Jabber/XMPP protocol. On the surface, CoyIM looks a lot like other chat clients such as Pidgin, Adium and Gajim. However, under the hood, things are a bit different. The most important guiding principle for CoyIM is to create a program that is safe and secure by default - no settings to change, no plugins to install, no computer configuration to change. We want CoyIM to make it easy to be safe whatever your threat model is - even for the most high risk people on the planet.</p>
- 
-    <p>CoyIM is still a very young project - we started in October 2015, basing the project on Adam Langley's <a href="https://github.com/agl/xmpp-client">xmpp-client</a> for Golang. Thus, there are many features missing you might expect to be there. We aim to add most of these, although some features we will never add since they go against our goals of a small and safe client.</p>
-
-    <p>For more information about how CoyIM is different, read the <a href="/about">about page</a>.</p>
-
-    <p>If you have comments or thoughts or questions, don't hesitate to send it to us - either through the contact information at the bottom of this page, or through the different methods listed on the <a href="/feedback">feedback page</a>.</p>
