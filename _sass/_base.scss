@@ -314,6 +314,10 @@ pre {
 
 .hexa a {
   color: #fafafa;
+  transition: font-size .2s ease-out;
+  &:hover {
+    font-size: 22px; 
+  }
 }
 
 .menu {
