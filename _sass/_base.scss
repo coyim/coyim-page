@@ -427,14 +427,13 @@ display: inline-block;
 }
 
 .diagrams{
+  margin: $spacing-unit 0;
+  text-align: center;
   li {
     display: inline-block;
-    width: 45%;
-    text-align: center;
-    margin-top: $spacing-unit;
+    vertical-align: top;
     img{
-      width: auto;
-      height: 300px;
+      margin: 0;
     } 
   }
 }
