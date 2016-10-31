@@ -199,6 +199,10 @@ display: inline-block;
   float: right;
 }
 
+/**
+ * FAQ page
+ */
+
 .faq-main {
   padding-right: 0;
   padding-top: 5px;
@@ -209,74 +213,58 @@ display: inline-block;
   } 
 }
 
-
-
-input {
-  display: none;
-  visibility: hidden;
-}
-
-label {
-  padding: 0.10em;
-  color: #666;
-}
-
-label:hover {
-  color: #000;
-}
-
-label::after {
-  font-weight: bold;
-  content: "-";
-  text-align: center;
-  vertical-align: super;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  margin-left: 7px;
-  background: radial-gradient(ellipse at top, #CCC 50%, transparent 50%);
-}
-
 @mixin toggle() {
   overflow: hidden;
   transition: height 0.5s;
   height: 0;
 } 
 
-#expand_1 {
-  height: 100px;
-}
+$questions: (
+  1  1,
+  2  2,
+  3  3,
+);
 
-#toggle_1:checked ~ label::after {
-  content: "+";
-}
+@each $value in $questions{
 
-#toggle_1:checked ~ #expand_1 {
-  @include toggle();
-}
+	.question{
+		label {
+			padding: 0.10em;
+			color: #666;
+			&:hover {
+				color: #000;
+			}
+			&:after {
+			  font-weight: bold;
+			  content: "-";
+			  text-align: center;
+			  vertical-align: super;
+			  display: inline-block;
+			  width: 40px;
+			  height: 40px;
+			  margin-left: 7px;
+			  background: radial-gradient(ellipse at top, #CCC 50%, transparent 50%);
+			}
+		}
+			input[type="checkbox"] {
+			display: none;
+			visibility: hidden;
+		}
+		#toggle_#{nth($value, 1)}{
 
-#expand_2 {
-  height: 100px;
-}
+			&:checked ~ label::after{
+				content: "+";
+			}
 
-#toggle_2:checked ~ #expand_2 {
-  @include toggle();
-}
+			&:checked ~ #expand_#{nth($value, 1)} {
+				@include toggle();
+			}
+		}
+	}
 
-#toggle_2:checked ~ label::after {
-  content: "+";
-}
-
-#expand_3 {
-  height: 120px;
-}
-
-#toggle_3:checked ~ #expand_3 {
-  @include toggle();
-}
-
-#toggle_3:checked ~ label::after {
-  content: "+";
+	#expand_#{nth($value, 1)} {
+		height: 100px;
+	}
 }
 
 
