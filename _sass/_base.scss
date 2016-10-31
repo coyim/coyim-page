@@ -283,7 +283,7 @@ pre {
 }
 
 /**
- * Descryptions
+ * Descriptions
  */
 
 .warning {
@@ -424,4 +424,17 @@ display: inline-block;
  padding-top: 20%;
  width: 100%;
  text-align: center;
+}
+
+.diagrams{
+  li {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-top: $spacing-unit;
+    img{
+      width: auto;
+      height: 300px;
+    } 
+  }
 }
