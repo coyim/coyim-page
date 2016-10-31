@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Us
+title: People
 tags: menu
 permalink: /us/
 ---
