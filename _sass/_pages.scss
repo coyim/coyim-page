@@ -1,0 +1,282 @@
+/**
+ * Homepage
+ */
+
+#main {
+  display: block;
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+  line-height: 140px;
+  height: 160px;
+  font-weight: 600;
+  padding: 0 40px;
+}
+
+.inside-text {
+  color: #828282;
+  text-align: center;
+  font-size: 20px;
+}
+
+.version {
+  font-size: 12px;
+}
+
+.home-title {
+  color: #111;
+  font-size: 90px;
+  letter-spacing: 1px;
+  display: inline;
+  float: left;
+  margin: 0;
+  width: 100%;
+  letter-spacing: -5px;
+}
+
+.hexa {
+  margin-top: 7%;
+  margin-bottom: 30px;
+}
+
+.hexa a {
+  color: #fafafa;
+  transition: font-size .2s ease-out;
+  &:hover {
+    font-size: 22px; 
+  }
+}
+
+.menu {
+  padding-right: 10px;
+}
+
+.fish {
+ margin-left: 25px;
+}
+
+
+.hexagon-download {
+  position: relative;
+  width: 250px;
+  height: 144.34px;
+  background-color: #f26359;
+  margin: 72.17px 0;
+display: inline-block;
+}
+
+.hexagon-download:before,
+.hexagon-download:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  font-size: 27px;
+}
+
+.hexagon-download:before {
+  bottom: 100%;
+  border-bottom: 72.17px solid #f26359;
+}
+
+.hexagon-download:after {
+  top: 100%;
+  width: 0;
+  border-top: 72.17px solid #f26359;
+}
+
+.hexagon-download .hexa-content {
+  padding: 0;
+  padding-top: 25px;
+}
+
+.hexagon {
+  position: relative;
+  width: 190px;
+  height: 109.70px;
+  background-color: #F58A74;
+  margin: 54.85px 0;
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 95px solid transparent;
+  border-right: 95px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 54.85px solid #F58A74;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 54.85px solid #F58A74;
+}
+
+
+.hexa-content {
+ position: absolute;
+ color: #fafafa;
+ font-size: 24px;
+ padding-top: 20%;
+ width: 100%;
+ text-align: center;
+}
+
+
+/**
+ * How to Use page
+ */
+
+.diagrams{
+  margin: $spacing-unit 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    vertical-align: top;
+    img{
+      margin: 0;
+    } 
+  }
+}
+
+/**
+ * Download page
+ */
+
+.tor-download {
+ margin-top: 30px;
+}
+
+.tor-button {
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius: 6px;
+  border: 2px solid;
+  border-color: #dcdcdc;
+  color:#666666;
+  padding:6px 24px;
+  text-shadow:0px 1px 0px #ffffff;
+  transition: background-color 2s ease-out;
+  text-transform: uppercase;
+}
+
+.tor-button:hover {
+  background-color: #e9e9e9;
+}
+
+.tor-button:active {
+  top:1px;
+}
+
+.story-item-left {
+ margin-top: 180px;
+ height: 200px; 
+}
+
+.story-image.note {
+  padding-top: 2%;
+  float: right;
+}
+
+.story-image .sync {
+  float: left;
+}
+
+.story-content {
+  left: 50%;
+  width: 50%;
+  float: right;
+}
+
+.faq-main {
+  padding-right: 0;
+  padding-top: 5px;
+  padding-bottom: 2px;
+
+  h3 {
+   display: inline-block;
+  } 
+}
+
+
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+label {
+  padding: 0.10em;
+  color: #666;
+}
+
+label:hover {
+  color: #000;
+}
+
+label::after {
+  font-weight: bold;
+  content: "-";
+  text-align: center;
+  vertical-align: super;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+  background: radial-gradient(ellipse at top, #CCC 50%, transparent 50%);
+}
+
+@mixin toggle() {
+  overflow: hidden;
+  transition: height 0.5s;
+  height: 0;
+} 
+
+#expand_1 {
+  height: 100px;
+}
+
+#toggle_1:checked ~ label::after {
+  content: "+";
+}
+
+#toggle_1:checked ~ #expand_1 {
+  @include toggle();
+}
+
+#expand_2 {
+  height: 100px;
+}
+
+#toggle_2:checked ~ #expand_2 {
+  @include toggle();
+}
+
+#toggle_2:checked ~ label::after {
+  content: "+";
+}
+
+#expand_3 {
+  height: 120px;
+}
+
+#toggle_3:checked ~ #expand_3 {
+  @include toggle();
+}
+
+#toggle_3:checked ~ label::after {
+  content: "+";
+}
+
+
