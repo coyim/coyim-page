@@ -239,6 +239,28 @@ pre {
     }
 }
 
+.icon-inside-big {
+
+    > svg {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+	path {
+	  fill: $grey-color;
+	  webkit-transition: fill 1s ease-out; /* For Safari 3.1 to 6.0 */
+	  transition: fill 1s ease-out;
+	  &:hover {
+	    fill: $pink-light-color;
+	  }
+        }
+    }
+}
+
 .icon-footer {
 
     > svg {
