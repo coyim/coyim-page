@@ -25,7 +25,16 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    .mobile-header {
+        display: none;
+        @include media-query($on-palm) {
+            display: inline;
+        }
+    }
 }
+
+
 
 .site-box {
     float:left;
