@@ -292,3 +292,38 @@ $questions: (1, 2, 3);
     background-color: $light-grey-color;
 }
 
+/**
+ * People page
+ */
+
+.flex-container-people {
+    display: -webkit-flex;
+    display: flex;
+    height: 350px;
+}
+
+.flex-item-3 {
+    width: 50%;
+    height: 500px;
+    margin: 10px;
+    margin-left: 0;
+
+    > img {
+      width: 100%;
+      margin-top: 10px;
+    } 
+}
+
+.flex-item-4 {
+    width: 50%;
+    margin: 5px;
+    padding: 25px;
+
+    > img {
+      width: 100%;
+      margin-top: 10px;
+    } 
+
+}
+
+
