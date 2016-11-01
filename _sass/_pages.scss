@@ -73,7 +73,7 @@
   h3 {
    display: inline-block;
    -webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
-   transition: color 1s ease-out;
+   transition: color 0.5s ease-out;
    cursor: pointer;
 
    &:hover {
@@ -96,6 +96,7 @@ $questions: (1, 2, 3);
 		label {
 			padding: 0.10em;
 			color: #666;
+			cursor: pointer;
 			&:hover {
 				color: #000;
 			}
