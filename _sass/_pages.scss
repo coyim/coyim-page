@@ -275,8 +275,14 @@ $questions: (1, 2, 3);
 
 .flex-item-1 {
     width: 40%;
-    height: 100px;
+    height: 1000px;
     margin: 10px;
+    margin-left: 0;
+
+    > img {
+      width: 100%;
+      margin-top: 10px;
+    } 
 }
 
 .flex-item-2 {
