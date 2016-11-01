@@ -68,13 +68,19 @@
  */
 
 .faq-main {
-  padding-right: 0;
-  padding-top: 5px;
-  padding-bottom: 2px;
+  padding: 5px 0 2px 0;
 
   h3 {
    display: inline-block;
-  } 
+   -webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
+   transition: color 1s ease-out;
+   cursor: pointer;
+
+   &:hover {
+     color: $pink-dark-color;
+   }
+  }
+  
 }
 
 @mixin toggle() {
