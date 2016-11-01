@@ -219,14 +219,9 @@ display: inline-block;
   height: 0;
 } 
 
-$questions: (
-  1  1,
-  2  2,
-  3  3,
-);
+$questions: (1, 2, 3);
 
 @each $value in $questions{
-
 	.question{
 		label {
 			padding: 0.10em;
@@ -263,7 +258,7 @@ $questions: (
 	}
 
 	#expand_#{nth($value, 1)} {
-		height: 100px;
+		height: auto;
 	}
 }
 
