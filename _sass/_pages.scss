@@ -263,3 +263,26 @@ $questions: (1, 2, 3);
 }
 
 
+/**
+ * What is CoyIM page
+ */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    height: 550px;
+}
+
+.flex-item-1 {
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+}
+
+.flex-item-2 {
+    width: 60%;
+    margin: 10px;
+    padding: 25px;
+    background-color: $light-grey-color;
+}
+
