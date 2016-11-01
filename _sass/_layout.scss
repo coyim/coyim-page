@@ -64,7 +64,7 @@
 	transition: color 1s ease-out;
         
 	&:hover {
-          color: #f26359;
+          color: $pink-dark-color;
 	}
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {

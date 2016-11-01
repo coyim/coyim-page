@@ -224,7 +224,7 @@ pre {
         }
 
 	&:hover path {
-	  fill: #722F2A;
+	  fill: $pink-dark-color;
 	}
     }
 }
@@ -257,7 +257,7 @@ pre {
 	}
 
 	&:hover path {
-	  fill: #f26359;
+	  fill: $pink-dark-color;
 	}
     }
 }
@@ -277,7 +277,7 @@ pre {
 	  transition: fill 1s ease-out;
 	} 
         &:hover path {
-          fill: #f26359;
+          fill: $pink-dark-color;
         }
     }   
 }
