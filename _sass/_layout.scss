@@ -182,25 +182,32 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    background-color: $light-grey-color;
+    padding: 10px;
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 15px;
     list-style: none;
+    margin-bottom: 70px;
+
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 15px;
+	margin-top: 15px;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
     font-size: 24px;
 }
 
