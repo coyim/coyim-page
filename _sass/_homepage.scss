@@ -9,13 +9,17 @@
 
 .text-center {
   text-align: center;
-  line-height: 140px;
   height: 160px;
-  font-weight: 600;
-  padding: 0 40px;
   @include media-query($on-palm) {
   	display: none;
   }
+}
+
+.home-title {
+  color: #111;
+  font-size: 90px;
+  width: 100%;
+  letter-spacing: -5px;
 }
 
 .inside-text {
@@ -24,19 +28,20 @@
   font-size: 20px;
 }
 
-.version {
-  font-size: 12px;
+.warning {
+  display:inline-block;
+  width: 70%;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5%;
+  background-color: #FFEEE1;
+  border-radius:.5em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.home-title {
-  color: #111;
-  font-size: 90px;
-  letter-spacing: 1px;
-  display: inline;
-  float: left;
-  margin: 0;
-  width: 100%;
-  letter-spacing: -5px;
+.version {
+  font-size: 12px;
 }
 
 .hexa {
@@ -48,18 +53,9 @@
   color: #fafafa;
   transition: font-size .2s ease-out;
   &:hover {
-    font-size: 22px; 
+    font-size: 22px;
   }
 }
-
-.menu {
-  padding-right: 10px;
-}
-
-.fish {
- margin-left: 25px;
-}
-
 
 .hexagon-download {
   position: relative;
@@ -126,7 +122,6 @@ display: inline-block;
   border-top: 54.85px solid #F58A74;
 }
 
-
 .hexa-content {
  position: absolute;
  color: #fafafa;
@@ -136,10 +131,9 @@ display: inline-block;
  text-align: center;
 }
 
-
 @include media-query($on-small) {
-	table, thead, tbody, th, td, tr {   
-  	display: block; 
+	table, thead, tbody, th, td, tr {
+  	display: block;
   }
 
 	td {
