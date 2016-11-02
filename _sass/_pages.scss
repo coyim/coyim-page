@@ -10,7 +10,7 @@
     vertical-align: top;
     img{
       margin: 0;
-    } 
+    }
   }
 }
 
@@ -45,7 +45,7 @@
 
 .story-item-left {
  margin-top: 180px;
- height: 200px; 
+ height: 200px;
 }
 
 .story-image.note {
@@ -80,14 +80,14 @@
      color: $pink-dark-color;
    }
   }
-  
+
 }
 
 @mixin toggle() {
   overflow: hidden;
   transition: height 0.5s;
   height: 0;
-} 
+}
 
 $questions: (1, 2, 3);
 
@@ -138,29 +138,27 @@ $questions: (1, 2, 3);
  * What is CoyIM page
  */
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    height: 550px;
+.what-is-container {
+  display: -webkit-flex;
+  display: flex;
+  height: 550px;
 }
 
-.flex-item-1 {
-    width: 40%;
-    height: 1000px;
-    margin: 10px;
-    margin-left: 0;
+.image-1 {
+  width: 40%;
+  margin: 10px 0px 10px 10px;
 
-    > img {
-      width: 100%;
-      margin-top: 50px;
-    } 
+  > img {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 
-.flex-item-2 {
-    width: 60%;
-    margin: 10px;
-    padding: 25px;
-    background-color: $light-grey-color;
+.text-1 {
+  width: 60%;
+  margin: 10px;
+  padding: 25px;
+  background-color: $light-grey-color;
 }
 
 /**
@@ -182,7 +180,7 @@ $questions: (1, 2, 3);
     > img {
       width: 100%;
       margin-top: 10px;
-    } 
+    }
 }
 
 .flex-item-4 {
@@ -193,7 +191,7 @@ $questions: (1, 2, 3);
     > img {
       width: 100%;
       margin-top: 10px;
-    } 
+    }
 
 }
 
