@@ -133,28 +133,26 @@ $questions: (1, 2, 3);
 	}
 }
 
-
 /**
  * What is CoyIM page
  */
 
-.what-is-container {
+.about-container {
   display: -webkit-flex;
   display: flex;
-  height: 550px;
 }
 
-.image-1 {
-  width: 40%;
-  margin: 10px 0px 10px 10px;
+.coy-image-wrapper {
+  width: 50%;
+  margin: 10px 0px 0px 0px;
 
   > img {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 80px;
   }
 }
 
-.text-1 {
+.about-text-wrapper {
   width: 60%;
   margin: 10px;
   padding: 25px;
