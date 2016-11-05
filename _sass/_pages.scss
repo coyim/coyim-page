@@ -137,7 +137,7 @@ $questions: (1, 2, 3);
  * What is CoyIM page
  */
 
-.about-container {
+.container {
   display: -webkit-flex;
   display: flex;
 }
@@ -163,17 +163,9 @@ $questions: (1, 2, 3);
  * People page
  */
 
-.flex-container-people {
-    display: -webkit-flex;
-    display: flex;
-    height: 350px;
-}
-
 .flex-item-3 {
     width: 50%;
-    height: 500px;
     margin: 10px;
-    margin-left: 0;
 
     > img {
       width: 100%;
@@ -183,20 +175,11 @@ $questions: (1, 2, 3);
 
 .flex-item-4 {
     width: 50%;
-    margin: 5px;
     padding: 25px;
 
     > img {
       width: 100%;
-      margin-top: 10px;
     }
 
 }
 
-#clock-image {
-   margin-top: -20px;
-}
-
-#mail-image {
-   margin-top: -70px;
-}
