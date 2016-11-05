@@ -1,18 +1,69 @@
 /**
+ * General Layout
+ */
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/**
  * How to Use page
  */
 
-.diagrams{
-  margin: $spacing-unit 0;
-  text-align: center;
-  li {
-    display: inline-block;
-    vertical-align: top;
-    img{
-      margin: 0;
-    }
-  }
+.step-line {
+  width: 6px;
+  margin-left: 15px;
+  margin-top: 60px;
+  padding-top: 25px;
+  background: $grey-color;
 }
+
+.step-line ul {
+  list-style-type: none;
+}
+
+.step-line ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.step-line ul li div {
+  position: relative;
+  width: 605px;
+  padding: 15px;
+  background: $light-grey-color;
+  left: 25px; 
+  margin-bottom: 50px;
+}
+ 
+.step-line ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  left: -15px;              
+  border-width: 8px 16px 8px 0;
+  border-color: transparent $light-grey-color transparent transparent;
+}
+
+.step-line ul li div p {
+  margin-left: 10px;
+}
+
+.step-line ul li div img {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
 
 /**
  * Download page
