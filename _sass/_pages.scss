@@ -133,7 +133,7 @@
   height: 0;
 }
 
-$questions: (1, 2, 3);
+$questions: (1, 2, 3, 4);
 
 @each $value in $questions{
 	.question{
