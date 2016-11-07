@@ -11,3 +11,5 @@ date: 26 Oct 2016
 
 # Build settings
 markdown: kramdown
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
