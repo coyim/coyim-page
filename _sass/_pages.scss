@@ -32,11 +32,10 @@
  */
 
 .step-line {
-  width: 6px;
-  margin-left: 15px;
-  margin-top: 60px;
-  padding-top: 25px;
-  background: $grey-color;
+  margin-left: 5%;
+  margin-top: 10%;
+  padding-top: 5%;
+  border-left: $grey-color solid 6px;
 }
 
 .step-line ul {
@@ -56,13 +55,13 @@
 
 .step-line ul li div {
   position: relative;
-  width: 605px;
+  width: 90%;
   padding: 15px;
   background: $light-grey-color;
-  left: 25px; 
+  left: 25px;
   margin-bottom: 50px;
 }
- 
+
 .step-line ul li div::before {
   content: '';
   position: absolute;

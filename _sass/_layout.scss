@@ -59,13 +59,13 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-	text-transform: uppercase;
-	-webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
-	transition: color 1s ease-out;
-        
-	&:hover {
+        text-transform: uppercase;
+        webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
+        transition: color 1s ease-out;
+
+  &:hover {
           color: $pink-color;
-	}
+  }
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
@@ -238,7 +238,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    margin-top: 60px;
+    margin-top: 9%;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -246,7 +246,7 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 8%;
 
     h2 {
         font-size: 32px;
