@@ -5,6 +5,7 @@
 .container {
   display: -webkit-flex;
   display: flex;
+  margin-top: 50px;
 }
 
 .flex-item-3 {
@@ -69,7 +70,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  left: -15px;              
+  left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent $light-grey-color transparent transparent;
 }
@@ -180,11 +181,6 @@ $questions: (1, 2, 3, 4);
 /**
  * What is CoyIM page
  */
-
-.container {
-  display: -webkit-flex;
-  display: flex;
-}
 
 .coy-image-wrapper {
   width: 50%;
