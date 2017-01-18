@@ -2,23 +2,29 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.8;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #828282;
+$background-color: #ffffff;
+$brand-color:      #3d3d3d;
+$hexagon-brand-color: #3d3d3d;
 
+$white-color: #fafafa;
+$pink-dark-color: #722F2A;
+$pink-color: #f26359;
 $grey-color:       #828282;
+$light-grey-color: #f1f1f1;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-lighter: lighten($grey-color, 10%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
@@ -43,5 +49,7 @@ $box-indent: 50px;
 @import
   "base",
   "layout",
-  "syntax-highlighting"
-;
+  "pages",
+  "syntax-highlighting",
+  "homepage"
+  ;

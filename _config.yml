@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://coy.im"
 
 version: 0.3.7_1
+date: 26 Oct 2016
 
 # Build settings
 markdown: kramdown
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']

@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -41,8 +40,10 @@ ul, ol, dl, figure,
  * Images
  */
 img {
+    margin-top: -48px;
     max-width: 100%;
     vertical-align: middle;
+    width: 150px;
 }
 
 
@@ -100,8 +101,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+      color: $brand-color;
     }
 }
 
@@ -202,7 +202,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+          fill: $grey-color;
         }
     }
 }
@@ -211,13 +211,20 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         vertical-align: middle;
+	margin: 0 9px;
 
         path {
-            fill: $grey-color;
+            fill: $white-color;
+            webkit-transition: fill 3s ease-out; /* For Safari 3.1 to 6.0 */
+	    transition: fill 0.4s ease-out;
         }
+
+	&:hover path {
+	  fill: $pink-dark-color;
+	}
     }
 }
 
@@ -231,15 +238,46 @@ pre {
     }
 }
 
-/**
- * Descryptions
- */
+.icon-inside-big {
 
-.warning {
-    padding:10px;
-    color: #9F6000;
-    margin:10px 0;
-    background-color: #FEEFB3;
-    border-radius:.5em;
-    border: 1px solid;
+    > svg {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        vertical-align: middle;
+        margin-top: 50px;
+	margin-right: 10px;
+	margin-left: 20px;
+
+	path {
+	  fill: $grey-color;
+	  webkit-transition: fill 1s ease-out; /* For Safari 3.1 to 6.0 */
+	  transition: fill 1s ease-out;
+	}
+
+	&:hover path {
+	  fill: $pink-color;
+	}
+    }
 }
+
+.icon-footer {
+
+    > svg {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+	margin-right: 15px;
+	margin-top: 5px;
+
+	path {
+	  fill: #828282;
+	  -webkit-transition: fill 1s ease-out; /* For Safari 3.1 to 6.0 */
+	  transition: fill 1s ease-out;
+	} 
+        &:hover path {
+          fill: $pink-color;
+        }
+    }   
+}
+

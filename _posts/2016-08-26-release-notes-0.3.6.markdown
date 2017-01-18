@@ -2,7 +2,9 @@
 layout: post
 title:  "Release notes for CoyIM 0.3.6"
 date:   2016-08-26 01:01:04
+TAG: "note"
 categories: coyim update
+
 ---
 
 # Release notes for CoyIM 0.3.6

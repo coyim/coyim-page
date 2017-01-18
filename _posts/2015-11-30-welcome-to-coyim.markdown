@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to CoyIM!"
 date:   2015-11-30 12:46:17
 categories: coyim update
+TAG: "blog"
+
 ---
 
 # coyim - a safe and secure chat client
