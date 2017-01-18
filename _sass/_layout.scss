@@ -182,9 +182,6 @@
     padding: $spacing-unit 0;
     padding-top: 70px;
 
-    @include media-query($on-small) {
-        margin-left: 160px;
-    }
     @include media-query($on-palm) {
         margin-left: 0;
     }
