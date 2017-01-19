@@ -10,7 +10,7 @@ permalink: /faq/
     <input id="toggle_1" type="checkbox" checked />
     <label for="toggle_1"><h3>How is this application secure?</h3></label>
     <div id="expand_1">
-      <p>CoyIM is a standalone chat client with a focus on safety and security. It is a self contained program that runs on Windows, Linux and OS X. CoyIM only supports one chat protocol - XMPP (which is sometimes known as Jabber).</p>
+      <p>CoyIM is a standalone chat client with a focus on safety and security. It has built in support for Tor, OTR and TLS. The Tor support allows users to become anonymous when chatting. OTR makes end-to-end encryption of communication possible. And TLS adds another layer of encryption to the communication with the chat servers. These features are core parts of the application: they are not plugins or extras in any way.</p>
     </div>
   </div>
 
@@ -26,11 +26,16 @@ permalink: /faq/
      <input id="toggle_3" type="checkbox" checked>
      <label for="toggle_3"><h3>I want to learn more about how it works. Where can I go?</h3></label>
         <div id="expand_3">
-          Here are some useful resources:
+          Here are some useful resources to learn about what CoyIm uses:
+	  <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging">otr</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">tls</a></li>
+            <li><a href="https://www.torproject.org/">tor</a></li>
+	  </ul>
+          Here are some useful resources to learn more about security:
           <ul>
-            <li>tor</li>
-            <li>security in a box</li>
-            <li>eff</li>
+            <li><a href="https://securityinabox.org/en">security in a box<a/></li>
+            <li><a href="https://www.eff.org/">eff</a></li>
           </ul>
         </div>
    </div>
@@ -39,12 +44,7 @@ permalink: /faq/
      <input id="toggle_4" type="checkbox" checked>
      <label for="toggle_4"><h3>What does it mean 'not yet audited'?</h3></label>
         <div id="expand_4">
-          Here are some useful resources:
-          <ul>
-            <li>tor</li>
-            <li>security in a box</li>
-            <li>eff</li>
-          </ul>
+          'Not yeat audited' means that CoyIm is currently under active development. There have been no security audits of the code, and you should currently not use this for anything sensitive.
         </div>
    </div>
 
