@@ -1,0 +1,35 @@
+---
+layout: page
+title: News
+permalink: /news/
+tags: menu
+---
+
+<h2 class="page-heading">Blog Posts</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.TAG == "blog" %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">[{{ post.date | date: "%d-%-b-%Y" }}]</span>
+      </h2>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2 class="page-heading">Release Notes</h2>
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.TAG == "note" %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">[{{ post.date | date: "%d-%-b-%Y" }}]</span>
+      </h2>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
