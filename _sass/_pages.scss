@@ -28,8 +28,9 @@
 }
 
 .flex-item-4 {
+    margin-top: 30px;
     width: 50%;
-    padding: 25px;
+    padding: 15px;
 
     > .inside-image {
       width: 100%;
@@ -37,6 +38,11 @@
 
     a {
       color: $pink-color;
+    }
+
+    .attribution {
+      margin-top: 5px;
+      font-size: 11px;
     }
 
 }
