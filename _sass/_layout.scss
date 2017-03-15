@@ -62,7 +62,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: 30px;
+        right: $spacing-unit;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -200,7 +200,7 @@
     -webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
     transition: color 1s ease-out;
     &:hover {
-      color: #f26359;
+      color: $pink-color;
     }
 }
 
