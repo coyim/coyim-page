@@ -35,19 +35,6 @@
 }
 
 
-
-.site-box {
-    float:left;
-    top: $spacing-unit + 56px;
-    position: fixed;
-    padding:10px;
-    z-index: 1;
-    max-width: 160px;
-    @include media-query($on-palm) {
-        display: none;
-    }
-}
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -63,9 +50,9 @@
         webkit-transition: color 1s ease-out; /* For Safari 3.1 to 6.0 */
         transition: color 1s ease-out;
 
-  &:hover {
-          color: $pink-color;
-  }
+        &:hover {
+            color: $pink-color;
+        }
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
@@ -125,11 +112,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit / 2 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
@@ -200,7 +182,7 @@
 
     > li {
         margin-bottom: 15px;
-	margin-top: 15px;
+        margin-top: 15px;
     }
 }
 
