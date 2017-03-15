@@ -152,48 +152,49 @@
   height: 0;
 }
 
+.question{
+  label {
+    padding: 0.10em;
+    color: #666;
+    cursor: pointer;
+    &:hover {
+      color: #000;
+    }
+    &:after {
+      font-weight: bold;
+      content: "-";
+      text-align: center;
+      vertical-align: super;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin-left: 7px;
+      background: radial-gradient(ellipse at top, #CCC 50%, transparent 50%);
+    }
+  }
+  input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 $questions: (1, 2, 3, 4, 5);
-
 @each $value in $questions{
-	.question{
-		label {
-			padding: 0.10em;
-			color: #666;
-			cursor: pointer;
-			&:hover {
-				color: #000;
-			}
-			&:after {
-			  font-weight: bold;
-			  content: "-";
-			  text-align: center;
-			  vertical-align: super;
-			  display: inline-block;
-			  width: 40px;
-			  height: 40px;
-			  margin-left: 7px;
-			  background: radial-gradient(ellipse at top, #CCC 50%, transparent 50%);
-			}
-		}
-			input[type="checkbox"] {
-			display: none;
-			visibility: hidden;
-		}
-		#toggle_#{nth($value, 1)}{
+  .question{
+    #toggle_#{nth($value, 1)}{
+      &:checked ~ label::after{
+        content: "+";
+      }
 
-			&:checked ~ label::after{
-				content: "+";
-			}
+      &:checked ~ #expand_#{nth($value, 1)} {
+        @include toggle();
+      }
+    }
+  }
 
-			&:checked ~ #expand_#{nth($value, 1)} {
-				@include toggle();
-			}
-		}
-	}
-
-	#expand_#{nth($value, 1)} {
-		height: auto;
-	}
+  #expand_#{nth($value, 1)} {
+    height: auto;
+  }
 }
 
 /**
