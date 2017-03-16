@@ -42,6 +42,8 @@ $on-small:        1000px;
 $box-width:        100px;
 $box-indent:        50px;
 
+$full-width:       100%;
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;

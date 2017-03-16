@@ -3,21 +3,21 @@
  */
 
 .content {
-  margin-top: 50px;
+  margin-top: $box-indent;
 }
 
 .container {
   display: -webkit-flex;
   display: flex;
-  margin-top: 50px;
+  margin-top: $box-indent;
 }
 
 .flex-item-3 {
-    width: 50%;
+    width: $full-width / 2;
     margin: 5px;
 
     > .inside-image {
-      width: 100%;
+      width: $full-width;
       margin-top: $spacing-unit;
     }
 
@@ -29,11 +29,11 @@
 
 .flex-item-4 {
     margin-top: $spacing-unit;
-    width: 50%;
+    width: $full-width / 2;
     padding: 15px;
 
     > .inside-image {
-      width: 100%;
+      width: $full-width;
     }
 
     a {
@@ -65,12 +65,12 @@
 .step-line ul li::after {
   content: '';
   position: absolute;
-  left: 50%;
+  left: $full-width / 2;
   bottom: 0;
-  transform: translateX(-50%);
+  transform: translateX(-($full-width / 2));
   width: $spacing-unit;
   height: $spacing-unit;
-  border-radius: 50%;
+  border-radius: $full-width / 2;
 }
 
 .step-line ul li div {
@@ -79,7 +79,7 @@
   padding: 15px;
   background: $light-grey-color;
   left: 25px;
-  margin-bottom: 50px;
+  margin-bottom: $box-indent;
 }
 
 .step-line ul li div::before {
@@ -218,11 +218,11 @@ $questions: (1, 2, 3, 4, 5);
  */
 
 .coy-image-wrapper {
-  width: 50%;
+  width: $full-width / 2;
   margin: 10px 0px 0px 0px;
 
   > img {
-    width: 100%;
+    width: $full-width;
     margin-top: 80px;
   }
 }

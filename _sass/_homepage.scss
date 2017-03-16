@@ -18,7 +18,7 @@
 .home-title {
   color: $header-text-color;
   font-size: 6em;
-  width: 100%;
+  width: $full-width;
   letter-spacing: -5px;
 }
 
@@ -77,12 +77,12 @@
 }
 
 .hexagon-download:before {
-  bottom: 100%;
+  bottom: $full-width;
   border-bottom: 72.17px solid $pink-color;
 }
 
 .hexagon-download:after {
-  top: 100%;
+  top: $full-width;
   width: 0;
   border-top: 72.17px solid $pink-color;
 }
@@ -111,12 +111,12 @@
 }
 
 .hexagon:before {
-  bottom: 100%;
+  bottom: $full-width;
   border-bottom: 54.85px solid $hexagon-background-color;
 }
 
 .hexagon:after {
-  top: 100%;
+  top: $full-width;
   width: 0;
   border-top: 54.85px solid $hexagon-background-color;
 }
@@ -126,7 +126,7 @@
  color: $white-color;
  font-size: 24px;
  padding-top: 20%;
- width: 100%;
+ width: $full-width;
  text-align: center;
 }
 

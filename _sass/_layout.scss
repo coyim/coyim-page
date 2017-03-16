@@ -8,7 +8,7 @@
 
     //fix the header in the top
     position: fixed;
-    width: 100%;
+    width: $full-width;
     background-color: white;
 
     z-index: 1;
@@ -152,8 +152,8 @@
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc($full-width - (#{$spacing-unit} / 2));
+        width:         calc($full-width - (#{$spacing-unit} / 2));
     }
 }
 
@@ -262,7 +262,7 @@
 }
 
 .story-image {
-  width: 50%;
+  width: $full-width / 2;
   height: 0;
 }
 
