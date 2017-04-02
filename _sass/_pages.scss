@@ -149,13 +149,11 @@
 }
 
 .question{
-  background-color: linen;
   margin-bottom: 0.5em;
   padding-top: 0.2em;
 
   label {
     padding: 0.10em;
-    color: $dark-grey-color;
     cursor: pointer;
     &:hover {
       color: black;
