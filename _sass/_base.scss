@@ -134,7 +134,6 @@ a {
 /**
  * Icons
  */
-
 .icon-platform {
   > svg {
     width: 40px;
@@ -147,7 +146,6 @@ a {
       webkit-transition: fill 3s ease-out; /* For Safari 3.1 to 6.0 */
       transition: fill 0.4s ease-out;
     }
-
     &:hover path {
       fill: $pink-dark-color;
     }
@@ -156,8 +154,8 @@ a {
 
 .icon-big {
   > svg {
-    width: $box-indent;
-    height: $box-indent;
+    width: 50px;
+    height: 50px;
     vertical-align: middle;
   }
 }
