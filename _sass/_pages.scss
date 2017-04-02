@@ -14,11 +14,9 @@
 
 .flex-item-3 {
     width: $full-width / 2;
-    margin: 5px;
 
     > .inside-image {
       width: $full-width;
-      margin-top: $spacing-unit;
     }
 
     a {
@@ -28,7 +26,7 @@
 }
 
 .flex-item-4 {
-    margin-top: $spacing-unit;
+    //margin-top: $spacing-unit;
     width: $full-width / 2;
     padding: 15px;
 
@@ -38,11 +36,6 @@
 
     a {
       color: $pink-color;
-    }
-
-    .attribution {
-      margin-top: 5px;
-      font-size: 11px;
     }
 
 }
