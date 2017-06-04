@@ -12,4 +12,4 @@ This is the official repo of the CoyIM website code.
 ~/coyim-page $ jekyll serve
 
 # Now browse to address pointed by jekyll
-``
+```
