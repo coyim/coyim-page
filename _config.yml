@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://coy.im"
 
-version: 0.3.7_1
-date: 26 Oct 2016
+version: 0.3.8
+date: 03 Jun 2017
 
 # Build settings
 markdown: kramdown
