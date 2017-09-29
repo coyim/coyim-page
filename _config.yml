@@ -1,6 +1,6 @@
 # Site settings
 title: CoyIM
-email: coyim@thoughtworks.com
+email: coyim@olabini.se
 description: > # this means to ignore newlines until "baseurl:"
     CoyIM is a safe and secure chat client.
 baseurl: "" # the subpath of your site, e.g. /blog/
