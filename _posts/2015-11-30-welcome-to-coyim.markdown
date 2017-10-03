@@ -9,11 +9,14 @@ TAG: "blog"
 
 # coyim - a safe and secure chat client
 
+&nbsp;
+
 [![Build Status](https://travis-ci.org/twstrike/coyim.svg?branch=master)](https://travis-ci.org/twstrike/coyim)
 [![Build status](https://ci.appveyor.com/api/projects/status/hcmdu0qtlcljq19v?svg=true)](https://ci.appveyor.com/project/tcz001/coyim)
 [![Coverage Status](https://coveralls.io/repos/twstrike/coyim/badge.svg?branch=master&service=github)](https://coveralls.io/github/twstrike/coyim?branch=master)
 [ ![Download](https://api.bintray.com/packages/twstrike/coyim/coyim-bin/images/download.svg)
 ](https://bintray.com/twstrike/coyim/coyim-bin/_latestVersion#files)
+&nbsp;
 
 CoyIM is a new client for the XMPP protocol. It is built upon https://github.com/agl/xmpp-client. It adds a graphical user interface and tries to be safe and secure by default. Our ambition is that it should be possible for even the most high-risk people on the planet to safely use CoyIM, without having to make any configuration changes.
 
@@ -41,11 +44,11 @@ Then install coyim:
 
 ```
 GTK_VERSION=$(pkg-config --modversion gtk+-3.0 | tr . _ | cut -d '_' -f 1-2)
-go get -u -tags "nocli gtk_${GTK_VERSION}" github.com/twstrike/coyim
+go get -u -tags "nocli gtk_${GTK_VERSION}" github.com/coyim/coyim
 ```
 
 ### CLI version (xmpp-client)
 
 ```
-go get -u github.com/twstrike/coyim
+go get -u github.com/coyim/coyim
 ```
