@@ -9,9 +9,9 @@ permalink: /what-is-coyim/
     <img src="/images/coy-01.png" alt="Coy-fish" />
   </div>
   <div class="about-text-wrapper">
-    <p>CoyIM is a standalone chat client that focuses on safety and security. It is a self-contained program that runs on Windows, Linux and macOS. CoyIM only supports one chat protocol - XMPP (sometimes known as Jabber). CoyIM has carefully picked and chose the features that are necessary to create a good chat experience, while keeping the attack surface of the system to a minimum.</p>
-    <p>It also has built-in support for Tor, OTR and TLS. The Tor support allows users to become anonymous while chatting. OTR makes end-to-end encryption of communication possible. And TLS adds another layer of encryption for the communication with chat servers. These features are not plugins or extras in any way.</p>
-    <p>CoyIM is implemented in Go. Many other implementation languages open up the door for a large number of attacks. We try to minimize those risks by using Go.</p>
+    <p>CoyIM is a standalone chat client that focuses on safety and security. It is a self-contained program that runs on Windows, Linux and macOS. CoyIM only supports one chat protocol - XMPP (sometimes known as Jabber). CoyIM has carefully picked and chosen the features that are necessary to create a good chat experience, while keeping the attack surface of the system to a minimum.</p>
+    <p>It also has built-in support for Tor, OTR and TLS. The Tor support allows users to become anonymous while chatting, OTR makes end-to-end encryption of communication possible, and TLS adds another layer of encryption for the communication with chat servers. These features are not plugins or extras in any way.</p>
+    <p>CoyIM is implemented in Go. Many other implementation languages open up the door for a large number of attacks; we try to minimize those risks by using Go.</p>
   </div>
 </div>
 
@@ -25,7 +25,7 @@ permalink: /what-is-coyim/
     <li>Use of separate Tor circuits for each account in order to make it harder to tie accounts together.</li>
     <li>Insertion of random delays before connecting to each account in order to make fingerprinting of connections between accounts harder.</li>
     <li>SRV lookup for the server over Tor if available.</li>
-    <li>Import of account settings, OTR settings, fingerprints and private keys from other clients like Pidgin, Adium, Gajim or xmpp-client.</li>
+    <li>Import of account settings, OTR settings, fingerprints, and private keys from other clients like Pidgin, Adium, Gajim or xmpp-client.</li>
     <li>Saving of all your configuration, including OTR fingerprints and keys, in an encrypted configuration file.</li>
   </ul>
   <h2>Features we want to have</h2>
@@ -37,7 +37,7 @@ permalink: /what-is-coyim/
     <li>Use of a unified security rating that combines several different measures of security.</li>
   </ul>
   <h2>Features we won't have</h2>
-  <p>Features have a tendency to make for a larger code base and bugs. For these reason, we will not support some features, like:</p>
+  <p>Features have a tendency to result in a larger code base and bugs. For this reason, we will not support some features, like:</p>
   <ul>
     <li>Use of browser view to render content inside CoyIM or rendering of HTML.</li>
     <li>Use of clickable links.</li>
