@@ -11,9 +11,9 @@ TAG: "blog"
 
 &nbsp;
 
-[![Build Status](https://travis-ci.org/twstrike/coyim.svg?branch=master)](https://travis-ci.org/twstrike/coyim)
+[![Build Status](https://travis-ci.org/coyim/coyim.svg?branch=master)](https://travis-ci.org/coyim/coyim)
 [![Build status](https://ci.appveyor.com/api/projects/status/hcmdu0qtlcljq19v?svg=true)](https://ci.appveyor.com/project/tcz001/coyim)
-[![Coverage Status](https://coveralls.io/repos/twstrike/coyim/badge.svg?branch=master&service=github)](https://coveralls.io/github/twstrike/coyim?branch=master)
+[![Coverage Status](https://coveralls.io/repos/coyim/coyim/badge.svg?branch=master&service=github)](https://coveralls.io/github/coyim/coyim?branch=master)
 [ ![Download](https://api.bintray.com/packages/twstrike/coyim/coyim-bin/images/download.svg)
 ](https://bintray.com/twstrike/coyim/coyim-bin/_latestVersion#files)
 &nbsp;
