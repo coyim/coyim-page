@@ -31,10 +31,10 @@ Bug fixes:
 - \#393 - Contact's fingerprints menu does not show the known fingerprints as advertised
 - \#389 - Clarify when a password has been saved in the configuration file
 - \#237 - Automatically generate author list
-- \#399 - If someone cancels entering master password when turning on encryption, we sohuld turn off encryption again
+- \#399 - If someone cancels entering master password when turning on encryption, we should turn off encryption again
 - \#408 - Problem with setting transient on latest Fedora
 - \#412 - Inserting a newline with shift-enter should insert that newline where the cursor is, not at the end
-- \#400 - We should be better at differentiating connection failures and authentication failures 
+- \#400 - We should be better at differentiating connection failures and authentication failures
 - Make it possible to press enter to submit a master password
 - \#348 - In unified view make it clear which conversation is the current one
 - \#413 - Making sure the i18n subsystem is initialized for CLI

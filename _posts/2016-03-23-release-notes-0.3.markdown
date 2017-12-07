@@ -41,7 +41,7 @@ Bug fixes:
 Other changes:
 
 - Allow for more TLS cipher suites when connecting
-- Better feedback on failure in various siutations
+- Better feedback on failure in various situations
 - Improve the add contact dialog, and add more functionality
 - Display version from the command line
 - Several new known servers with onion services
