@@ -1,13 +1,18 @@
 # Site settings
-title: CoyIM
+title: CoyIM Chat Client
 email: coyim@olabini.se
-description: > # this means to ignore newlines until "baseurl:"
-    CoyIM is a safe and secure chat client.
-baseurl: "" # the subpath of your site, e.g. /blog/
+description: >
+    CoyIM is a new chat client that is safe and secure by default: no settings
+    to change, no plugins to install, no computer configuration to change.
+baseurl: ""
 url: "https://coy.im"
 
-version: 0.3.11
-date: 2 Apr 2019
+version: 2.0.0
+date: 2 June 2020
 
-# Build settings
+# Markdown settings
 markdown: kramdown
+
+exclude:
+  - config.ru
+  - README.md

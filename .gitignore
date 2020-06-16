@@ -1,6 +1,7 @@
 # Application specific files
 _site
 .sass-cache
+.jekyll-cache
 
 # Folder view configuration files
 .DS_Store
